@@ -8,3 +8,4 @@ Since starting this language adventure, Go has probably been the coolest languag
 
 + [Homepage](https://golang.org)
 + [Learn Go by Example](https://gobyexample.com/)
++ [Awesome Go List](https://github.com/avelino/awesome-go)

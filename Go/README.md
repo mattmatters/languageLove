@@ -6,4 +6,5 @@ Since starting this language adventure, Go has probably been the coolest languag
 
 ## Helpful Links
 
++ [Homepage](https://golang.org)
 + [Learn Go by Example](https://gobyexample.com/)

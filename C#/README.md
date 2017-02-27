@@ -6,6 +6,14 @@ The type system is fairly easy to get a grasp of.  It supports static type syste
 
 While I have not spent enough time to say for sure, Object Oriented Programming seems to be this language's bread and butter, with inheritence, encapsulation, etc being supported.
 
+## Running
+Install mono and mcs then type
+
+```sh
+mcs hello.cs
+mono hello.exe
+```
+
 ## Helpful Links
 + [Microsoft's .NET Homepage](https://www.microsoft.com/net)
 + [Microsoft Developer Network](https://msdn.microsoft.com/)

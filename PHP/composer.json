@@ -1,0 +1,12 @@
+{
+    "name": "root/php-test",
+    "description": "PHP learning exercises",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matt Lewis",
+            "email": "domattthings@gmail.com"
+        }
+    ],
+    "require": {}
+}

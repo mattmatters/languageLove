@@ -8,6 +8,7 @@ if ($argc !== 2) {
 function switchTest($a) {
 
     // switch statements operate off the == operator
+    // fallthrough logic is present when not using break
     switch ($a) {
         case 1:
             echo "case 1\n";

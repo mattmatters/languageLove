@@ -7,3 +7,4 @@ One of my favorite hobbies is to pick a new language I have had no exposure to a
 + The continuing adventures of Python
 + Elixir
 + Ruby
++ An indepth look at Javascript ES6+

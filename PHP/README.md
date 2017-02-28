@@ -21,3 +21,4 @@ You could pipe the output into an HTML file or do whatever you like with it. The
 ## Helpful Links
 + [Awesome PHP List](https://github.com/ziadoz/awesome-php)
 + [Awesome Composer List](https://github.com/jakoch/awesome-composer)
++ [PHP The Right Way](http://www.phptherightway.com)

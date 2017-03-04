@@ -1,6 +1,6 @@
 # [PHP](https://secure.php.net/)
 
-More than half of currently live web applications are being powered by PHP.  While people's complaints against the language are [numerous](https://whydoesitsuck.com/why-does-php-suck/), that does not change the fact that most web developers will have to use the language at some point in their career.
+More than half of currently live web applications are being powered by PHP.  While people's [complaints](http://phpsadness.com/) against the language are [numerous](https://whydoesitsuck.com/why-does-php-suck/), that does not change the fact that most web developers will have to use the language at some point in their career.
 
 ## Running
 

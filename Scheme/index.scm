@@ -1,10 +1,10 @@
 ;; define assigns a value to an element
 
 ;; define atom
-(define a "cow")
+(define a cow)
 
 ;; define list
-(define l ("poop" "pants"))
+(define l (<poop> <pants>))
 
 
 ;; List primitives

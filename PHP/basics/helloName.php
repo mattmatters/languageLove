@@ -10,4 +10,3 @@ if ($argc !== 2) {
 //$argv is an array of arguments
 $name = $argv[1];
 echo "Hello, $name!\n";
-?>

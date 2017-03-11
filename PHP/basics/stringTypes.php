@@ -17,5 +17,3 @@ echo "\t Such as variable = $variable\n";
 // to separate variable names from characters, wrap variable in {}
 
 echo "I take {$variable}s\n";
-
-?>

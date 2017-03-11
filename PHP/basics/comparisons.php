@@ -28,5 +28,3 @@ if ($stringPosition) {    // 'test' is found at position 0, which is interpreted
 if ($stringPosition !== false) {    // true, as strict comparison was made (0 !== false)
     echo "test was found in testing at position $stringPosition \n";
 }
-
-?>

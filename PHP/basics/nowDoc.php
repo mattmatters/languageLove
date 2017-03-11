@@ -18,6 +18,3 @@ not parse.
 EOD;
 
 echo $nowDocString;
-
-
-?>

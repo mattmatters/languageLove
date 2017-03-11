@@ -27,5 +27,3 @@ function switchTest($a) {
 }
 
 switchTest($argv[1]);
-
-?>

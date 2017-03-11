@@ -30,5 +30,3 @@ foreach ($periodIterator as $date) {
     // output each date in the period
     echo $date->format('Y-m-d') . "\n";
 }
-
-?>

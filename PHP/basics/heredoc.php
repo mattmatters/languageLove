@@ -19,6 +19,3 @@ quote style string \$a will be $a.
 EOD;
 
 echo $heredocString;
-
-
-?>

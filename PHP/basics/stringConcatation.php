@@ -17,5 +17,3 @@ $b = 'Multi-line example'
 
 echo $a;
 echo $b;
-
-?>

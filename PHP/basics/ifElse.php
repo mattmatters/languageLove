@@ -19,5 +19,3 @@ echo "testIfTrue1(0) will return ".var_export(testIfTrue1(0), true)."\n";
 echo "testIfTrue1(1) will return ".var_export(testIfTrue1(1), true)."\n";
 echo "testIfTrue2(0) will return ".var_export(testIfTrue1(0), true)."\n";
 echo "testIfTrue2(1) will return ".var_export(testIfTrue1(1), true)."\n";
-
-?>

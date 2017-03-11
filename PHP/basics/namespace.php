@@ -15,5 +15,3 @@ function arrayIterate() {
     $iterator = new \ArrayIterator();    // ArrayIterator is an internal class. Using its name without a backslash
                                          // will attempt to resolve it within your namespace.
 }
-
-?>

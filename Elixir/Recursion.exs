@@ -16,13 +16,15 @@ defmodule Recursion do
     reduce(tail, func.(initialValue, head), func)
   end
 
-#  def filter([], _func), do: []
-#  def filter([ head | tail ], func) when func.(head) do
-#    [ head | filter(tail) ]
-#  end
-#  def filter([ _head | tail ], func) do
-#    filter(tail)
-#  end
+  def filter([], _func), do: []
+  def filter([ head | tail ], func) do
+    f = func.(head)
+    if f do
+      [ head | filter(tail, func) ]
+    else
+      filter(tail, func)
+    end
+  end
 
   def sum(list), do: reduce(list, 0, &(&1 + &2))
 
@@ -56,5 +58,10 @@ defmodule Recursion do
   end
   def flattenList([ head | tail ]) do
     [ head | flattenList(tail) ]
+  end
+
+  def span(from, to) when to <= from, do: []
+  def span(from, to) do
+    [ from | span(from + 1, to)]
   end
 end

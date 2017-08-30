@@ -1,10 +1,13 @@
 ;; define assigns a value to an element
 
 ;; define atom
-(define a cow)
+(define a `cow)
 
 ;; define list
-(define l (<poop> <pants>))
+(define l `(poop pants))
+
+;; define a quick atom? implementation
+(define (atom? x) (not (pair? x)))
 
 
 ;; List primitives
@@ -40,15 +43,15 @@
   (lambda (l)
     (cond
       ((null? l) #t)
-      ((atom? (car l)) (lat? (cdr l))
+      ((atom? (car l)) (lat? (cdr l)))
       (else #f))))
 
 (lat? l) ; true
 
 
-;; or takes to arguments, if the first is true it returns true
+;; or takes two arguments, if the first is true it returns true
 ;; otherwise it returns whatever the second one is
-(or (null? l) (null? ()))) ; true
+(or (null? l) (null? ())) ; true
 (or (null? ()) (null? ())) ; false
 
 ;; example functions (Mostly taken or inspired from The Little Schemer)
@@ -62,13 +65,15 @@
      (else (cons (car lat)
                  (rember a (cdr lat)))))))
 
+(rember `a `(b a c))
+
 ;; Get first member of each nested list in list
 (define firsts
   (lambda (l)
     (cond
      ((null? l) quote())
      (else (cons (car (car l))
-                 (firsts cdr l))))))
+                 (firsts (cdr l)))))))
 
 ;; Insert new member after to the right of old member
 (define insertR
